@@ -227,7 +227,7 @@ static struct usb_device_id rtw_usb_id_tbl[] = {
 	{USB_DEVICE(0x0b05, 0x1841), .driver_info = RTL8822B}, /* ASUS USB AC57 */
 	{USB_DEVICE(0x2357, 0x0115), .driver_info = RTL8822B}, /* Archer USB T4Uv3 */
 	{USB_DEVICE(0x2357, 0x012d), .driver_info = RTL8822B}, /* Archer USB T3U */
-	{USB_DEVICE_AND_INTERFACE_INFO(USB_VENDER_ID_REALTEK, 0xB82C, 0xff, 0xff, 0xff), .driver_info = RTL8822B}, /* Default ID */
+	{USB_DEVICE_AND_INTERFACE_INFO(USB_VENDER_ID_REALTEK, 0xB82C, 0xff, 0xff, 0xff), .driver_info = RTL8822B}, /* TE7T4UV3 */
 #endif /* CONFIG_RTL8822B */
 
 #ifdef CONFIG_RTL8723D
